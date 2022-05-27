@@ -16,9 +16,9 @@ Average: 6.0
 '''
 num = int(input("Enter a number or enter 0 to stop:"))
 total = 0
-
+flint = 0
 while num != 0:
   total = total + num
   num = int(input("Enter a number or enter 0 to stop:"))
-    
-print("Average:", total)
+  flint = flint + 1
+print("Average:", total/flint)
